@@ -19,7 +19,7 @@ static.AnchorPoint = Vector2.new(0.5,0.5)
 static.ScaleType = "Tile"
 static.SizeConstraint = "RelativeYY"
 static.TileSize = UDim2.new(0.125,0,0.125,0)
-static.Parent = gui.MainInterface
+static.Parent = screen
 
 spawn(function()
    while wait(0.025) do
